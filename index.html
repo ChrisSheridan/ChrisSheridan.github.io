@@ -2,7 +2,64 @@
 <html>
     <head>
         <title>Mole Treasure Hunt</title>
-        Testing
     </head>
-    
-</html>
+    <link href = "animate.css" rel="stylesheet">
+    <style type = "text/css">
+        body{
+            background-image: url(GreatSea.jpg);
+            overflow:hidden;
+        }
+        .button {
+            margin: 0px auto 0px auto;
+            -webkit-animation-duration: 1s;
+            -webkit-animation-delay: 4s;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+align-self: center;
+
+}
+        .button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+     .Molie {
+            width: 640px;
+            height: 606px;
+            margin: 50px auto 0 auto;
+            -webkit-animation-duration: 1s;
+            -webkit-animation-delay: 1s;
+        }
+        .text {
+            font-family: "Arial", sans-serif;
+            margin: 0px auto 0px auto;
+            -webkit-animation-duration: 1s;
+            -webkit-animation-delay: 2s;
+        }
+        .question {
+            font-family: "Arial", sans-serif;
+            margin: 0px auto 0px auto;
+            -webkit-animation-duration: 1s;
+            -webkit-animation-delay: 3s;
+        }
+        
+    </style>
+    <body>
+    <div class = "Molie animated bounceInDown"><img src=Molie_The_Pirate.jpg></div>
+    <div class = "text animated bounceInRight"><center><h1 style="color:black;">Argg! Welcome to Molie The Pirate's Quiz Adventure.</h1></center></div>
+    <div class = "question animated bounceInUp"><center><h2>Will you be able to make it through his maze of Chemistry questions? Or will you be walking the blank? Click the button to go to the first question.</h2></center></div>
+    <a href="question1.html"><center><button class="button animated bounceInUp">Go to Question 1</button></center></a>
+    </body>
+        </html>
