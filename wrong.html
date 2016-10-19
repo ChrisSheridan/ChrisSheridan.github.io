@@ -1,4 +1,54 @@
 <!DOCTYPE HTML>
 <html>
-    
+    <head>
+        <title>Mole Treasure Hunt</title>
+    </head>
+    <link href = "animate.css" rel="stylesheet">
+    <style type = "text/css">
+        body{
+            background-image: url(GreatSea.jpg);
+            overflow:hidden;
+        }
+        .WalkPlank{
+            -webkit-animation-duration: 1s;
+            -webkit-animation-delay: 2s;
+        }
+        .PirateTalk{
+            font-family: "Arial", sans-serif;
+            color:black;
+            margin: 0px auto 50px auto;
+            -webkit-animation-duration: 1s;
+            -webkit-animation-delay: 1s;
+        }
+        .button {
+            margin: 0px auto 0px auto;
+            -webkit-animation-duration: 1s;
+            -webkit-animation-delay: 5s;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+align-self: center;
+            }
+        .button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+    </style>
+    <body>
+        <div class ="WalkPlank animated bounceInDown"><center><img src="WalkThePlank.jpg"></center></div>
+        <div class ="PirateTalk animated bounceInDown"><center><h1>Arg! Ye got the question wrong! Time to walk the blank matey!</h1></center></div>
+        <a href="index.html"><center><button class="button animated bounceInUp">Go Back To Start</button></center></a>
+    </body>
 </html>
