@@ -1,6 +1,11 @@
 @import "heading.css";
 @import "paragraph.css";
 
+@font-face
+{
+    font-family: consolas;
+    src: url('consola.ttf')
+}
 * {background: black;}
 
 .centered {
