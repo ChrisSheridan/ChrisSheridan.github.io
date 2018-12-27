@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+    <link rel="stylesheet" type="text/css" href="style.css">
+   <div id="main">
+    <b><center><p id="typing_text"></p></center></b>
+    </div>
+    <img src="me.jpg" id="myImage" height="300" width="200" class="middle">
+
+
+    <script src="jquery-3.2.0.js">
+</script>
+    <script>
+    $("#myImage").hide().fadeIn(1600);
+    </script>
+<script src="typed.js"></script>
+    <script>
+    $(function(){
+		$("#typing_text").typed({
+            
+			strings: [" ^600", "I'm Chris. ^1000", "I'm a freshman at Farmingdale State College."],
+			typeSpeed: -10,
+            showCursor: true,
+		});
+	});
+    </script>
+</html>
